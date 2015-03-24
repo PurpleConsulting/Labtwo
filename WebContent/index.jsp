@@ -9,8 +9,13 @@
 	</head>
 	<body>
 		<div class="container-fluid">
+				<div class="col-md-offset-2 col-md-7">
+					<h1>Technologie web: Labtwo</h1>
+					<h4>DIVAD Loïc</h4>
+				</div>
+				<div class="col-md-offset-1 col-md-9"><hr/></div>
 				<div class="col-md-offset-2 col-md-7 partone">
-					<h1>First part of the<br/>Techno Web Lab2</h1>
+					<h1>First part of the Lab2</h1>
 					<form action="card.jsp" method="get">
 						<div class="form-group">
         				<fieldset>
@@ -48,7 +53,7 @@
 				</div>
 				<div class="col-md-offset-1 col-md-9"><hr/></div>
 				<div class="col-md-offset-2 col-md-7 parttwo">
-					<h1>Simple scripts with Jquery<br/> LabTwo part 2</h1>
+					<h1>Second part of the Lab2</h1>
 					<ul>
 						<li>
 							<input type=button value="Random quote in h1" onClick="f1()">

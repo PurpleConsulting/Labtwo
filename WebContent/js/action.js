@@ -8,7 +8,7 @@
 $("input[value='female']").prop('checked', true);
 /** Now we are sure we prepare for a girl**/
 fs1 = $("fielset").first();
-h1 = $("h1").first();
+h1 = $(".partone h1").first();
 
 function validation(){
 	conformance = true;
@@ -41,7 +41,7 @@ $(document).ready(function(){
 	$("input[type='radio']").change(function(){
 		if($(this).val() == 'male'){
 			$("fieldset").addClass("male")
-			h1.text("Hey Dude! Welcome to the \n 2nd TechWeb Lab, Bro.")
+			h1.text("Hi Bro! Welcome, to the Lab session n°2.")
 		} else {
 			$("fieldset").removeClass('male');
 			h1.text("Hello Madam. Nice to see you\n in this Lab session.")
